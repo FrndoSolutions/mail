@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientConfig version="1.1">
+    <emailProvider id="frndosolutions.com">
+        <displayName>Frndo Solutions Mail</displayName>
+        <domain>frndosolutions.com</domain>
+        <incomingServer type="imap">
+            <hostname>mail.frndosolutions.com</hostname>
+            <port>993</port>
+            <socketType>SSL</socketType>
+            <authentication>password-cleartext</authentication>
+        </incomingServer>
+        <outgoingServer type="smtp">
+            <hostname>webmail.frndosolutions.com</hostname>
+            <port>465</port>
+            <socketType>SSL</socketType>
+            <authentication>password-cleartext</authentication>
+        </outgoingServer>
+    </emailProvider>
+</clientConfig>
